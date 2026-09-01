@@ -7,6 +7,6 @@
   "keep_vars": true,
 
   "vars": {
-    "APPS_SCRIPT_URL": "PASTE_URL_APPS_SCRIPT_EXEC_DI_SINI"
+    "APPS_SCRIPT_URL": "https://script.google.com/macros/s/AKfycbww72FI3QS3D1vNZkgpLG8h4D12M3_C-v3GVx4PUYKfTvLXWEt_O24dm5dFb8oktslf/exec"
   }
 }
