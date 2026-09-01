@@ -1,12 +1,11 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "outing-bms-2026-pwa",
-  "main": "src/index.js",
   "compatibility_date": "2026-09-01",
   "workers_dev": true,
-  "keep_vars": true,
-
-  "vars": {
-    "APPS_SCRIPT_URL": "https://script.google.com/macros/s/AKfycbww72FI3QS3D1vNZkgpLG8h4D12M3_C-v3GVx4PUYKfTvLXWEt_O24dm5dFb8oktslf/exec"
+  "assets": {
+    "directory": "./public",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
   }
 }
