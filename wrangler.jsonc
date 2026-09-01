@@ -1,0 +1,7 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "outing-bms-2026-pwa",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-01",
+  "workers_dev": true
+}
