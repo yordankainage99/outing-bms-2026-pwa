@@ -4,5 +4,9 @@
   "main": "src/index.js",
   "compatibility_date": "2026-09-01",
   "workers_dev": true,
-  "keep_vars": true
+  "keep_vars": true,
+
+  "vars": {
+    "APPS_SCRIPT_URL": "PASTE_URL_APPS_SCRIPT_EXEC_DI_SINI"
+  }
 }
