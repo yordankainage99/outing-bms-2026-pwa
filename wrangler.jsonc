@@ -1,26 +1,11 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "outing-bms-2026-pwa",
-  "main": "src/index.js",
   "compatibility_date": "2026-09-01",
   "workers_dev": true,
-
   "assets": {
     "directory": "./public",
-    "binding": "ASSETS",
     "html_handling": "auto-trailing-slash",
-    "not_found_handling": "404-page",
-    "run_worker_first": [
-      "/api/push/*",
-      "/push-key-setup"
-    ]
-  },
-
-  "d1_databases": [
-    {
-      "binding": "DB",
-      "database_name": "outing-bms-push",
-      "database_id": "6e1b3206-cc0a-462b-86c8-7fae894367f7"
-    }
-  ]
+    "not_found_handling": "404-page"
+  }
 }
